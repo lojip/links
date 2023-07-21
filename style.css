@@ -52,6 +52,7 @@ ol {
 
 
 header {
+    box-shadow: 0px 10px 15px rgb(69 68 68 / 40%);
     background-color: #222222;
     position: fixed;
     top: 0;
@@ -170,6 +171,7 @@ header {
 .sectionTextContainer {
     padding: 15px 0;
 }
+
 
 
 /* footer */
