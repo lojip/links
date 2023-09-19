@@ -2,7 +2,7 @@ const arr = ["Adult capybaras can weigh up to 70 kilograms, and their length can
 
 const container = document.querySelector(".main");
 
-container.addEventListener("click", function (event) {
+container.addEventListener("click", (event) => {
     const button = event.target.closest("button");
     if (button) {
         const div = button.nextElementSibling;
